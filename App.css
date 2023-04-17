@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgb(5, 18, 56) 0%,
+    rgb(38, 65, 65) 100%
+  );
+}
+
+.signUp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 80px;
+}
+
+.input-name,
+.input-email,
+.input-password,
+.submit-button {
+  background:rgb(8, 110, 110);
+  color: #fff;
+}
+.input-name::placeholder,
+.input-email::placeholder,
+.input-password::placeholder,
+.submit-button::placeholder {
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 20%,
+    rgba(0, 128, 128, 1) 80%
+  );
+  color: #fff;
+}
+
+.logo {
+  width: 50vw;
+  height: 20vh;
+}
+
+.login-button {
+  background-color: rgb(17, 86, 86);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+.signup-button {
+  background-color: rgb(17, 86, 86);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
